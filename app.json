@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "loanBook",
-    "slug": "loanBook",
+    "name": "Finance Book",
+    "slug": "loanbook",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "landscape",
+    "icon": "./assets/loanbook.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/loanbook.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/loanbook.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kherkatarybhaskar.loanBook"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/loanbook.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd7f61a7-a90b-4e76-bb09-a18046483adb"
+      }
+    },
+    "owner": "kherkatarybhaskar"
   }
 }
